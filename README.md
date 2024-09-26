@@ -4,7 +4,7 @@ See https://arxiv.org/abs/2212.10781 for the notation (particular $J$-parameter 
 
 This code produces the conjectural bound of Lusztig's a-function using the formula in https://arxiv.org/abs/2212.10781 (Conjecture 6.80 combined with Conjecture 6.81). 
 
-The formula is as follows: for the representation $(\pi_{J,\mathsf{v}},M_{J,\mathsf{v}},B_{J,\mathsf{v}})$ (see Section 4 of the paper for the construction of this representation) define
+The formula is as follows: for the representation $(\pi_{J,\mathsf{v}},M_{J,\mathsf{v}},B_{J,\mathsf{v}})$ (see Section 4 of the paper for the construction of this representation) define $\mathsf{q}$
 
 $$\mathbf{a}_{J,\mathsf{v}} = L(\mathsf{w}_0) - \frac{1}{2} \mathrm{deg}{\prod_{\alpha\in \Phi}}'\frac{1-\mathsf{v}^{\alpha^\vee}}{1-\mathsf{q}_{\alpha}^{-2}\mathsf{v}^{\alpha^\vee}}$$
 
@@ -20,7 +20,7 @@ For a classification of which of these representations are bounded (and thus whe
 
 The output of the conjecturalbound function is a list of ranges and then their corresponding bounds. The ranges are of the value of $a/b$. The ranges go up to 100 however not all of these bounds make sense (check with the boundedness classification from the paper). 
 
-For example, let type = "F4", $J = {1,2,3}$ and sign = $[1,-1]$. Then the output is 
+For example, let type = "F4", $J = \{1,2,3\}$ and sign = $[1,-1]$. Then the output is 
 
 [
     [ 0, 2/3 ],
