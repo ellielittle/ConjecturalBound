@@ -171,7 +171,6 @@ degree := function(deg,rep)
     return deg[1]*rep[1]+deg[2]*rep[2];
 end function;
 
-//Doesn't work for F4 but does for G2 (figure out)
 sumandbounds := function(posroots,rep,sign,J,Ematrix,longroots,lwo,n)
     all := allranges(posroots,sign,J,Ematrix,longroots,n);
     bounds := [y/1 : y in {x[1][2] : x in all} join {x[2][1][2] : x in all} join {x[2][2][2] : x in all}] cat [100];
