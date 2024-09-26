@@ -4,7 +4,7 @@ See https://arxiv.org/abs/2212.10781 for the notation (particular $J$-parameter 
 
 This code produces the conjectural bound of Lusztig's a-function using the formula in https://arxiv.org/abs/2212.10781 (Conjecture 6.80 combined with Conjecture 6.81). 
 
-The formula is as follows: for the representation $(\pi_{J,\mathsf{v}},M_{J,\mathsf{v}},B_{J,\mathsf{v}})$ (see Section 4 of the paper for the construction of this representation) define $\mathsf{q}$
+The formula is as follows: for the representation $(\pi_{J,\mathsf{v}},M_{J,\mathsf{v}},B_{J,\mathsf{v}})$ (see Section 4 of the paper for the construction of this representation) define 
 
 $$\mathbf{a}_{J,\mathsf{v}} = L(\mathsf{w}_0) - \frac{1}{2} \mathrm{deg}{\prod_{\alpha\in \Phi}}'\frac{1-\mathsf{v}^{\alpha^\vee}}{1-\mathsf{q}_{\alpha}^{-2}\mathsf{v}^{\alpha^\vee}}$$
 
