@@ -34,14 +34,14 @@ For example, let type = "F4", $J = {1,2,3}$ and sign = $[1,-1]$. Then the output
 ]
 
 [
-    2*b + 2*a,
-    5*a,
-    -b + 6*a,
-    -7*b + 11*a,
-    b + 7*a,
-    4*b + 6*a,
-    12*b + 4*a,
-    12*b + 4*a
+    2b + 2a,
+    5a,
+    -b + 6a,
+    -7b + 11a,
+    b + 7a,
+    4b + 6a,
+    12b + 4a,
+    12b + 4a
 ]
 
 By Proposition 5.11, the representation is bounded when $a/b\leq 2$ therefore we have the following conjectural bounds:
