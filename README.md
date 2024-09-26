@@ -43,7 +43,7 @@ For example, let type = "F4", $J = {1,2,3}$ and sign = $[1,-1]$. Then the output
     12*b + 4*a
 ]
 
-By Proposition 5.11, the representation is bounded when $\frac{a}{b}\leq 2$ therefore we have the following conjectural bounds:
+By Proposition 5.11, the representation is bounded when $a/b\leq 2$ therefore we have the following conjectural bounds:
 
 $$\mathbf{a}_{J,\mathsf{v}} = \begin{cases} 2a+2b &\text{ if } 0\leq \frac{a}{b}\leq \frac{2}{3}\\
 5a &\text{ if } \frac{2}{3}\leq \frac{a}{b}\leq 1 \\
