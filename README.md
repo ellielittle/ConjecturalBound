@@ -6,7 +6,7 @@ This code produces the conjectural bound of Lusztig's a-function using the formu
 
 The formula is as follows: for the representation $(\pi_{J,\mathsf{v}},M_{J,\mathsf{v}},B_{J,\mathsf{v}})$ (see Section 4 of the paper for the construction of this representation) define
 
-$$ a_{J,\mathsf{v}} = L(\mathsf{w}_0) - \frac{1}{2} \mathrm{deg}{\prod_{\alpha\in \Phi}}'\frac{1-\mathsf{v}^{\alpha^\vee}}{1-\mathsf{q}_{\alpha}^{-2}\mathsf{v}^{\alpha^\vee}}$$
+$$\mathbf{a}_{J,\mathsf{v}} = L(\mathsf{w}_0) - \frac{1}{2} \mathrm{deg}{\prod_{\alpha\in \Phi}}'\frac{1-\mathsf{v}^{\alpha^\vee}}{1-\mathsf{q}_{\alpha}^{-2}\mathsf{v}^{\alpha^\vee}}$$
 
 where ${\prod}'$ indicates that we remove factors that are zero from the numerator and the denominator. This gives a conjectural formula for Lusztig's a-function for the elements that are recognised by this representation. 
 
@@ -18,7 +18,7 @@ To find the conjectural bound input conjecturalbound(type,J,sign) where
 
 For a classification of which of these representations are bounded (and thus when this formula makes sense) see Proposition 5.11 and Theorem 5.9 of the paper. 
 
-The output of the conjecturalbound function is a list of ranges and then their corresponding bounds. The ranges are of the value of $\frac{a}{b}$. The ranges go up to 100 however not all of these bounds make sense (check with the boundedness classification from the paper). 
+The output of the conjecturalbound function is a list of ranges and then their corresponding bounds. The ranges are of the value of $a/b$. The ranges go up to 100 however not all of these bounds make sense (check with the boundedness classification from the paper). 
 
 For example, let type = "F4", $J = {1,2,3}$ and sign = $[1,-1]$. Then the output is 
 
