@@ -12,7 +12,7 @@ where ${\prod}'$ indicates that we remove factors that are zero from the numerat
 
 To find the conjectural bound input conjecturalbound(type,J,sign) where 
 - type is the type of reduced, irreducible root system as a string (Eg, "A6", "F4")
-- J is a subset of the set of generator indices (eg $J = \{1,2,3\}$)
+- J is a subset of the set of generator indices (eg $J = \\{1,2,3\\}$)
 - sign is a tuple that represents the chosen $J$-parameter system. Let $a$ be the weight of the short roots and $b$ be the weight of the long roots, that is $\mathsf{q}\_\alpha = \mathsf{q}^a$ if $\alpha$ short and $\mathsf{q}\_\alpha = \mathsf{q}^b$ if $\alpha$ long. Then $\mathsf{v}\_\alpha \in \\{\mathsf{q}\_\alpha,-\mathsf{q}\_\alpha^{-1}\\}$. We define sign := $[i,j]$ where $\mathsf{v}\_\alpha = i\mathsf{q}^{i}$ for short roots $\alpha$ and $\mathsf{v}\_\alpha = j\mathsf{q}^{j}$ for long roots $\alpha$. For example, for type $F4$ if we take $\mathsf{v}\_{\alpha_1} = \mathsf{v}\_{\alpha_2} = \mathsf{q}^{a}$ and $\mathsf{v}\_{\alpha_3} = \mathsf{v}\_{\alpha_4} = -\mathsf{q}^{-b}$ then sign = $[1,-1]$. For the simply laced case only the longroot input will matter but sign should still be inputed as a tuple (input [-1,-1] to get the bound).
 
 
